@@ -1,0 +1,40 @@
+table{width: 50%;
+    border-collapse: collapse;
+text-align: center;
+font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;}
+th, tr, td{
+    border: solid 1px rgb(108, 99, 99);
+    padding: 6px 10px;
+}
+tr, td{
+    cursor: pointer;
+}
+thead th{
+    background-color: grey;
+    color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.number{
+    font-size: 22px;
+    font-weight: bold;
+}
+.name-prize{
+    width: 70px;
+}
+tr:hover, td:hover{
+    background-color: rgb(255, 239, 208);
+
+}
+.result{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: bold;
+}
+.result span{
+    padding: 5px;
+}

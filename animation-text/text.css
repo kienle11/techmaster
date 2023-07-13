@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(2, 117, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    position: relative;
+}
+.loader span{
+    display: inline-block;
+    margin-top: 200px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: bold;
+    animation: floating 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes floating{
+
+    0%, 40%, 100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    20% {
+      -webkit-transform: translateY(-100px);
+              transform: translateY(-100px);
+    }
+ 
+  }
+  

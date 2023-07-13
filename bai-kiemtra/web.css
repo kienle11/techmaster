@@ -15,7 +15,7 @@ body{
 .header{
     display: flex;
     align-items: flex-end;
-    font-family: Poppins,sans-serif;
+    font-family: "Poppins",sans-serif;
     justify-content: space-between;
     height: 88px;
     position: fixed;

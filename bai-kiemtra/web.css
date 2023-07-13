@@ -64,6 +64,7 @@ body{
 }
 #view-work:hover{
     background-color: #2e2f34;
+    transition: background-color 775ms,opacity .4s,color .4s;
 }
 .hi{margin-top: 230px;
     display: flex;

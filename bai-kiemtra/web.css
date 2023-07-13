@@ -250,6 +250,7 @@ body{
     max-width: 100%;
     height: 57px;
     border: none;
+    padding-left: 10px;
 }
 #form span{
     font-size: 14px;
